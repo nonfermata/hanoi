@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+button {
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -34,11 +40,12 @@ body {
 }
 
 .btn {
+    display: block;
     margin: 2em auto;
     padding: 7px 14px;
     border-radius: 30px;
     cursor: pointer;
-    width: fit-content;
+    /* width: fit-content; */
     color: #fffffe;
     border: 1px solid #fffffe;
     background-color: #00758c;

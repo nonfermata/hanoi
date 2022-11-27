@@ -1,7 +1,7 @@
 const container = document.querySelector(".container");
 const greetings = document.querySelector(".greetings");
 const begin = document.querySelector(".btn");
-const back = document.createElement("div");
+const back = document.createElement("button");
 back.classList.add("btn");
 back.textContent = "В начало";
 
