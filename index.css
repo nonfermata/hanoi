@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em 0;
+}
+
+.greetings {
+    padding: 5%;
+}
+
+.mainImg {
+    display: block;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.greetings h2 {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.greetings p {
+    margin-bottom: 1em;
+}
+
+.btn {
+    margin: 2em auto;
+    padding: 7px 14px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: fit-content;
+    color: #fffffe;
+    border: 1px solid #fffffe;
+    background-color: #00758c;
+    transition: all 0.15s ease;
+}
+
+.btn:hover {
+    color: #00758c;
+    border: 1px solid #00758c;
+    background-color: #fffffe;
+}
